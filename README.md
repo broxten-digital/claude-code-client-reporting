@@ -12,8 +12,7 @@ Everything used in the video. Free, no email, no signup, no upsell.
 | `example-context-brightside.md` | The filled version from the video. |
 | `example-caveats-brightside.md` | The filled version from the video. |
 |  `the-questions.md` | The eight questions asked on camera, in order, with the expected wrong answer and right answer for each. |
-| `report-structure.md` | The shape of the written output. |
-| `dashboard-spec.md` | How to render it as a single self-contained HTML dashboard: structure, chart rules, and a validated color palette. |
+| `report-structure.md` | What the report says and what it looks like. Section order, plus the dashboard render: chart rules and a validated color palette. |
 | `example-dashboard.html` | The finished dashboard from the video, built from the demo data. Open it in a browser. |
 
 All data in the demo file is invented. Brightside Dental Group is not a real
@@ -33,9 +32,9 @@ business.
 5. Read it before the client does. Every claim traces to a number, every
    projection states its assumption.
 
-Then, if you want it to look like something: drop `dashboard-spec.md` in the
-folder and ask for the dashboard. `example-dashboard.html` is what that
-produces.
+Then, if you want it to look like something: `report-structure.md` covers the
+dashboard too. Drop it in the folder and ask for one.
+`example-dashboard.html` is what that produces.
 
 ## Why the context file is the point
 
