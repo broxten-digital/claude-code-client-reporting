@@ -1,6 +1,6 @@
 # The questions, in order
 
-Eight questions. The same eight get asked of both workspaces.
+Nine questions. The same eight get asked of both workspaces.
 
 That is the whole experiment. Same data, same questions, same model. One folder
 has two extra files in it. Everything that changes between the two runs comes
@@ -149,6 +149,23 @@ their order, with the right verdict on August.
 Run this every single time, on both good and bad output. It catches the
 confident sentence with nothing underneath it, which is the failure mode that
 costs you a client.
+
+---
+
+## Q9 · The dashboard
+
+> Build the dashboard described in part two of `report-structure.md`. One
+> self-contained HTML file in the project root. No external stylesheets, no CDN
+> scripts, no build step. Every number computed from the files in `data/`.
+
+**Run this in both workspaces.** The output spec is in both, so both come back
+polished. The difference is that one of them is wrong.
+
+A client-ready dashboard confidently recommending you cut your best campaign is
+the clearest possible statement of the problem. It also closes the objection
+that the good run only looked better because it was asked for a dashboard.
+
+**Reference:** `example-dashboard.html` in this repo.
 
 ---
 
